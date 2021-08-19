@@ -4,25 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f3506ca-1e0f-4dce-93cb-c7f62e8f740c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/users-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dto/user-id.dto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mongo/mongo.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mongo/mongo.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schemas/user.schema.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/users/users.controller.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/users/users.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dto/create-user-dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/create-user-dto.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+    <list default="true" id="2f3506ca-1e0f-4dce-93cb-c7f62e8f740c" name="Default Changelist" comment="F">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +87,8 @@
       <workItem from="1629215292111" duration="8050000" />
       <workItem from="1629401680374" duration="5003000" />
       <workItem from="1629409903222" duration="436000" />
-      <workItem from="1629410408627" duration="749000" />
+      <workItem from="1629410408627" duration="1086000" />
+      <workItem from="1629412344371" duration="31000" />
     </task>
     <servers />
   </component>
