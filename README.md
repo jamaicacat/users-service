@@ -14,6 +14,29 @@ Try removing 'sharp' folder from node_modules and reinstalling it with ``` npm i
 # API
 Get all users: http://localhost:3000/users [GET].
 
-Create user: http://localhost:3000/users/create [POST].
+Create user: http://localhost:3000/users/create [POST]. 
+Required data ([decorators explained here](https://github.com/typestack/class-validator)): 
+``` javasript
+export class CreateUserDto {
+  @IsString({ message: 'Name must be a string' })
+  @MinLength(2, { message: "Name can't be shorter than 2 letters" })
+  @Matches(/^([A-Z][a-z]+)$/, {
+    message: 'First name must start with Capital letter',
+  })
+  firstName: string;
+
+  @IsString({ message: 'Surname must be a string' })
+  @MinLength(2, { message: "Surname can't be shorter than 2 letters" })
+  @Matches(/^([A-Z][a-z]+)$/, {
+    message: 'Last name must start with Capital letter',
+  })
+  lastName: string;
+
+  @IsEmail({ allow_ip_domain: false })
+  email: string;
+
+  photo: Buffer;
+}
+```
 
 Get user by id: http://localhost:3000/users/USER_ID_HERE [GET].
