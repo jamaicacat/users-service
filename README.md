@@ -13,5 +13,7 @@ Try removing 'sharp' folder from node_modules and reinstalling it with ``` npm i
 
 # API
 Get all users: http://localhost:3000/users [GET].
+
 Create user: http://localhost:3000/users/create [POST].
+
 Get user by id: http://localhost:3000/users/USER_ID_HERE [GET].
